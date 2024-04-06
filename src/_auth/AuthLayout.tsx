@@ -12,6 +12,12 @@ export default function AuthLayout({ outlet }) {
           <section className="flex flex-col flex-1 justify-center items-center py-10">
             <Outlet />
           </section>
+
+          <img
+            src="/assets/images/side-img.svg"
+            alt="logo"
+            className="xl:block hidden bg-no-repeat w-1/2 h-screen object-cover"
+          />
         </>
       )}
     </>
